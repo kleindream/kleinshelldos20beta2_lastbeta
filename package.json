@@ -1,0 +1,23 @@
+{
+  "name": "klein-shell-dos-2-beta2",
+  "version": "2.0.0-beta.2",
+  "description": "Klein Shell DOS 2.0 Beta 2 - educational retro terminal game by Klein Dream",
+  "main": "main.js",
+  "author": "Rodrigo Klein Mariano Canto",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "6.1.12",
+    "electron-builder": "20.44.4"
+  },
+  "build": {
+    "appId": "br.com.kleindream.kleinshelldos2",
+    "productName": "Klein Shell DOS 2.0 Beta 2",
+    "win": {
+      "target": "portable"
+    }
+  }
+}
